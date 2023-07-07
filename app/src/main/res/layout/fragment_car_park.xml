@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sfragment.CarParkFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/black01"
+                android:layout_height="match_parent"
+                android:text="停车场id"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textColor="@color/black01"
+                android:layout_height="match_parent"
+                android:text="名称"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textColor="@color/black01"
+                android:layout_height="match_parent"
+                android:text="地址"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_car_park_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:background="#F5F6FA"
+            android:scrollbars="none"
+            android:divider="@color/white"
+            />
+    </LinearLayout>
+
+</FrameLayout>

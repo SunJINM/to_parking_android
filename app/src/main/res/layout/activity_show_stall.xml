@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ShowStallActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="车位列表"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/blue"/>
+
+    <ListView
+        android:id="@+id/list_my_book"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:scrollbars="none"
+        android:divider="@color/white" />
+    <Button
+        android:id="@+id/carPark_daoHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="导航"
+        android:textColor="@color/black"
+        android:background="@color/color_book_info_green"/>
+
+</LinearLayout>

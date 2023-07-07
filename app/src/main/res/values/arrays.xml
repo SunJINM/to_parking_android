@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_map">
+        <item>百度地图</item>
+        <item>我的位置</item>
+        <item>获取附近停车位</item>
+    </string-array>
+
+</resources>

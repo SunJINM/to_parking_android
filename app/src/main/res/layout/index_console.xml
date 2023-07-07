@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_index_two"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home_park1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_base"
+        android:padding="0dp"
+        android:scrollbars="none">
+
+
+        <EditText
+            android:id="@+id/search_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/white"
+            android:textSize="16sp"
+            android:hint="请输入停车场"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/search_parking"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:textSize="16sp"
+            android:hint="搜索"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/sound_parking"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="附近停车场"
+            android:textSize="10sp"
+            android:textColor="@color/color_book_info_green"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_my_book"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:divider="@color/white"
+        android:scrollbars="none" />
+</LinearLayout>

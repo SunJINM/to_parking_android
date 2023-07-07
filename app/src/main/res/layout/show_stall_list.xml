@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/carParkId"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scrollbars="vertical"
+                android:fadeScrollbars="true"
+                android:textColor="@color/black01"
+                android:layout_height="20dp"
+                android:text="停车场id"/>
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scrollbars="vertical"
+                android:fadeScrollbars="true"
+                android:textColor="@color/black01"
+                android:layout_height="wrap_content"
+                android:text="位置"/>
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scrollbars="vertical"
+                android:fadeScrollbars="true"
+                android:textColor="@color/black01"
+                android:layout_height="wrap_content"
+                android:text="费用"/>
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scrollbars="vertical"
+                android:fadeScrollbars="true"
+                android:textColor="@color/black01"
+                android:layout_height="wrap_content"
+                android:text="地址"/>
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scrollbars="vertical"
+                android:fadeScrollbars="true"
+                android:textColor="@color/black01"
+                android:layout_height="wrap_content"
+                android:text="状态"/>
+
+
+</LinearLayout>

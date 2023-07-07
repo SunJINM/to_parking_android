@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/console"
+        android:icon="@drawable/car"
+        android:orderInCategory="100"
+        android:title="停车场"
+        />
+    <item
+        android:id="@+id/data_center"
+        android:icon="@drawable/console"
+        android:orderInCategory="100"
+        android:title="订单"/>
+    <item
+        android:id="@+id/personal_center"
+        android:icon="@drawable/person01"
+        android:orderInCategory="100"
+        android:title="@string/personal_center"/>
+</menu>

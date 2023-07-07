@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">停车APP</string>
+    <!--    返回-->
+    <string name="back">返 回</string>
+    <!--    登录系统-->
+    <string name="login_index">登 录</string>
+    <string name="phone">账 号 :</string>
+    <string name="nick_name">昵 称 :</string>
+    <string name="phone_number">手机号码：</string>
+    <string name="phone_password">账号密码：</string>
+    <string name="hint_phone">请输入您的手机号码</string>
+    <string name="hint_nick_name">请输入您的昵称(长度为1-20)</string>
+    <string name="password">密 码 :</string>
+    <string name="confirm_password">确 认 密 码 :</string>
+    <string name="new_password">新 密 码 :</string>
+    <string name="old_password">旧 密 码 :</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="regular_password">密码格式：长度为6-16位且必须由英文和数字组合的密码</string>
+    <string name="login">登 录</string>
+    <string name="register">立即注册!</string>
+    <string name="user_register">用户注册</string>
+    <string name="register_code">获取验证码</string>
+    <string name="register_code_request">请输入验证码</string>
+    <string name="modify_password">修改密码</string>
+    <string name="confirm_modify">确认修改</string>
+    <string name="remember_email_password">记住账号密码</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="add_stall">系统管理-停车位添加</string>
+    <string name="forget_code_request">请输入验证码</string>
+    <string name="forget_code">获取验证码</string>
+    <!--    首页-->
+    <string name="personal_center">我的</string>
+    <string name="personal_center01">个人主页</string>
+    <string name="console">预约</string>
+    <string name="console_stall">停车位</string>
+    <string name="my_data">附近</string>
+    <string name="exit">退出登录</string>
+    <string name="switch_account">切换账号</string>
+    <string name="more_operation">更多服务</string>
+
+    <!--    个人中心-->
+    <string name="my_dynamic">我的动态</string>
+    <string name="add_dynamic">添加动态</string>
+    <string name="function">功 能</string>
+
+    <!--    动态数据-->
+    <string name="dynamic_content">动态内容</string>
+    <string name="user_dynamic">用户动态</string>
+    <string name="dynamic_like">点赞</string>
+    <string name="dynamic_content_hint">说点什么吧</string>
+    <string name="dynamic_content_add_img">添加照片</string>
+
+    <!--    性别-->
+    <string name="gender">性 别:</string>
+    <string name="boy">男</string>
+    <string name="girl">女</string>
+
+    <!--    年龄-->
+    <string name="age">你 的 年 龄：</string>
+    <string name="hint_age">请输入您的年龄</string>
+
+    <!--    个人信息-->
+    <string name="my_info">个人信息</string>
+    <string name="my_order">我的订单</string>
+    <string name="my_money">我的钱包</string>
+    <string name="my_money01">钱包</string>
+    <string name="recharge">充值中心</string>
+    <string name="recharge_money">充值数额(单位：元)</string>
+    <string name="to_recharge_money">面额为大于0元小于或等于10000元，且只能为整数</string>
+    <string name="my_balance">我的余额:</string>
+    <string name="my_use_balance">可用余额(单位：元)</string>
+    <string name="my_recharge">充值</string>
+    <string name="modify_head_portrait">修改头像</string>
+    <string name="my_nickname">昵 称:</string>
+    <string name="my_gender">性 别:</string>
+    <string name="my_id">I D:</string>
+    <string name="my_phone">手机号:</string>
+    <string name="my_age">年 龄:</string>
+    <string name="my_address">地 址:</string>
+    <string name="click_transfer">切换</string>
+
+    <!--    首页-->
+    <string name="near_park">附近停车位</string>
+    <string name="my_book">我的预约</string>
+    <string name="get_location">获取定位</string>
+
+    <!--    获取位置-->
+    <string name="get_stall_type">类 型：</string>
+    <string name="get_stall_integer_price">请输入整数金额！</string>
+    <string name="get_stall_price">价 格(/元)：</string>
+    <string name="book_order_form">预约编号：</string>
+    <string name="confirm_finish">已完成</string>
+    <string name="get_province">省 份:</string>
+    <string name="get_city">城 市:</string>
+    <string name="get_detail_address">详细地址:</string>
+    <string name="get_longitude">经 度:</string>
+    <string name="get_latitude">纬 度:</string>
+    <string name="upload_stall">停车位上传</string>
+    <string name="get_stall_image">获取车位照片</string>
+    <string name="get_image_by_album">从相册获取</string>
+    <string name="get_image_by_take">拍照获取</string>
+    <string name="shoot">拍摄</string>
+    <string name="get_image_by_phone_album">从手机相册获取</string>
+    <string name="cancel_get_image">取消</string>
+    <!--    停车位-->
+    <string name="stall_info_longitude">经 度:</string>
+    <string name="stall_info_latitude">纬 度:</string>
+    <string name="stall_info_image">车位照片</string>
+    <string name="detail_info">详 情</string>
+    <string name="stall_info_upload">上传照片</string>
+    <!--    我的预约-->
+    <string name="console_my_book">我的预约</string>
+    <string name="leisure">空 闲</string>
+    <string name="appointed">已预约</string>
+    <string name="stall_info_book">预约</string>
+    <string name="navigation">导 航</string>
+    <string name="stall_state">车位状态</string>
+    <string name="stall_state01">车位状态:</string>
+    <!--    导航地图-->
+    <string name="use_baidu_map">百度地图</string>
+    <string name="my_location01">我的定位</string>
+    <string name="get_loc">定位</string>
+    <string name="use_gaode_map">高德地图</string>
+    <string name="use_tengxun_map">腾讯地图</string>
+    <string name="search_content">请输入搜索位置</string>
+    <string name="search">搜索</string>
+    <string name="charge">收 费：</string>
+    <string name="read_detail">查看详情</string>
+    <string name="gmt_create">创建时间：</string>
+    <string name="book_end_time">结束时间：</string>
+
+    <!-- 车位预约  -->
+    <string name="to_book_car">车位预约</string>
+    <string name="region">区域：</string>
+    <string name="number">号码：</string>
+    <string name="choose_number">请选择预约位置：</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="demo_info_text">Warning: \n\nFor demonstration purpose, the assembling and signing of the request parameters are done on the client side.\nHowever, in practice, both assembling and signing MUST BE carried out on the server side.</string>
+    <string name="pay_with_alipay">Pay with Alipay</string>
+    <string name="pay_with_alipay_hk">Pay with AlipayHK</string>
+    <string name="auth_with_alipay">Authenticate with Alipay</string>
+    <string name="web_to_native">Call Alipay from Web Content</string>
+    <string name="check_sdk_version">Alipay SDK Version</string>
+    <string name="pay_success">支付成功:</string>
+    <string name="auth_failed">Authentication failed:</string>
+    <string name="error_missing_appid_rsa_private">Error: Missing \"APPID\" or \"RSA_PRIVATE\" in PayDemoActivity.</string>
+    <string name="error_missing_hk_partner_seller_rsa_private">Error: Missing \"PARTNER\", \"SELLER\", or \"RSA_PRIVATE\\ in OrderUtils1_0_HK.</string>
+    <string name="pay_result">Payment result:</string>
+    <string name="error_auth_missing_partner_appid_rsa_private_target_id">Error: Missing \"PARTNER\", \"APP_ID\", \"RSA_PRIVATE\", or \"TARGET_ID\" in PayDemoActivity.</string>
+    <string name="confirm">Confirm</string>
+    <string name="pay_failed">Payment failed:</string>
+    <string name="auth_success">Authentication success:</string>
+    <string name="alipay_sdk_version_is">"Alipay SDK version: "</string>
+    <string name="error_missing_h5_pay_url">Missing URL to load. Please configure in PayDemoActivity.h5Pay()</string>
+    <string name="error">Error</string>
+    <string name="pay_cross_border">Cross-border Pay with Alipay</string>
+    <string name="error_missing_global_partner_seller_rsa_private">Error: Missing \"PARTNER\", \"SELLER\", or \"RSA_PRIVATE\\ in OrderUtils1_0_Global.</string>
+    <string name="payment_inst_hk">Payer: HK</string>
+    <string name="payment_inst_cn">Payer: CN</string>
+
+</resources>

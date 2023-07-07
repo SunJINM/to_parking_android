@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AdminConsoleActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/parking"
+        android:background="@color/grey"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="1">
+
+        <Button
+            android:id="@+id/btn_addPark"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="添加停车场"
+            android:textSize="17sp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_addStall"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="添加停车位"
+            android:textSize="17sp"
+            android:gravity="center"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn_managePark"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="信息查看"
+        android:textSize="17sp"
+        android:gravity="center"/>
+
+</LinearLayout>
